@@ -1632,3 +1632,48 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.22-10.27.21:681][ 73]LogFab: Display: User logged in
 [2025.05.22-10.27.21:681][ 73]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.05.22-10.27.21:790][ 81]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-nZRkHyPPSke9tkOm3r1fdg-xFvHAsR2hkSTYGZU42hHVg]
+[2025.05.22-10.29.07:263][834]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: ================================================
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Total job queries 1,330, among them cache hits 216 (16.24%), DDC hits 1,099 (82.63%), Duplicates 3 (0.23%)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Tracking 1,111 distinct input hashes that result in 867 distinct outputs (78.04%)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: RAM used: 564.00 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Time job spent in pending queue: average 0.43 s, longest 1.45 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Job execution time: average 1.46 s, max 2.30 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Job life time (pending + execution): average 1.88 s, max 2.38
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Shader code size: average 6.534 KiB, min 2.379 KiB, max 10.969 KiB
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.41 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Average processing rate: 4.99 jobs/sec
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Total thread time: 9.155 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Total thread preprocess time: 16.067 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Percentage time preprocessing: 175.50%
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Effective parallelization: 3.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.42% of total time (compiled    2 times, average 0.66 sec, max 0.76 sec, min 0.56 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.00% of total time (compiled    2 times, average 0.60 sec, max 0.83 sec, min 0.36 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                                  FVelocityPS - 9.60% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 9.11% of total time (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.11% of total time (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: === Material stats ===
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Materials Translated:    136
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Material Translation Only: 0.05 s (52%)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.05.22-10.30.20:134][ 52]LogShaderCompilers: Display: ================================================
+[2025.05.22-10.33.02:488][539]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 348.035950
+[2025.05.22-10.33.03:487][542]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.22-10.33.03:487][542]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 348.702911, Update Interval: 358.284241
